@@ -98,16 +98,4 @@ var messages = [
 						 "text": event.target.value,
 						 "date": ( new Date( ) ).getTime( )
 						 }
-					 };		
-						let $article = createArticle( message );
-	        			$("#messages-list").prepend( $article );	
-	        			event.target.value = "";
-						console.log( message );			
-						submitMessage( message );
-					}
-				 });				
-
-				loadMessages( );
-
-	    	});
-
+					 };
