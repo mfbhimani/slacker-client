@@ -84,7 +84,8 @@ h1 {
 h2 {
 	display: inline-block;
 	font-size: 1.5rem;
-	margin-right: 8rem; 
+	margin-right: 8rem;
+	color:#471c9c; 
 }
 
 h3 {
